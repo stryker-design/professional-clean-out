@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-sunflower {
+  --tw-bg-opacity: 1;
+  background-color: #f39c12;
+}

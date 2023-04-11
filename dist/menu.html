@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <nav class="fixed z-10 w-full bg-white md:absolute md:bg-transparent">
+      <div class="container m-auto px-2 md:px-12 lg:px-7">
+        <div
+          class="flex flex-wrap items-center justify-between py-3 gap-6 md:py-4 md:gap-0"
+        >
+          <div class="w-full px-6 flex justify-between lg:w-max md:px-0">
+            <a
+              href="https://tailus.io/blocks/hero-section"
+              aria-label="logo"
+              class="flex space-x-2 items-center"
+            >
+              <img
+                src="https://tailus.io/sources/blocks/food-delivery/preview/images/icon.png"
+                class="w-12"
+                alt="tailus logo"
+                width="144"
+                height="133"
+              />
+              <span class="text-2xl font-bold text-yellow-900"
+                >Tailus <span class="text-yellow-700">Feedus</span></span
+              >
+            </a>
+
+            <button
+              aria-label="humburger"
+              id="hamburger"
+              class="relative w-10 h-10 -mr-2 lg:hidden"
+            >
+              <div
+                aria-hidden="true"
+                id="line"
+                class="inset-0 w-6 h-0.5 m-auto rounded transtion duration-300"
+              ></div>
+              <div
+                aria-hidden="true"
+                id="line2"
+                class="inset-0 w-6 h-0.5 mt-2 m-auto rounded transtion duration-300"
+              ></div>
+            </button>
+          </div>
+
+          <div
+            class="hidden w-full lg:flex flex-wrap justify-end items-center space-y-6 p-6 rounded-xl bg-white md:space-y-0 md:p-0 md:flex-nowrap md:bg-transparent lg:w-7/12"
+          >
+            <div class="text-gray-600 lg:pr-4">
+              <ul
+                class="space-y-6 tracking-wide font-medium text-sm md:flex md:space-y-0"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block md:px-4 transition hover:text-yellow-700"
+                  >
+                    <span>Home</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/dist/menu.html"
+                    class="block md:px-4 transition hover:text-yellow-700"
+                  >
+                    <span>Menus</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block md:px-4 transition hover:text-yellow-700"
+                  >
+                    <span>Catering</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block md:px-4 transition hover:text-yellow-700"
+                  >
+                    <span>About</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="w-full space-y-2 border-yellow-200 lg:space-y-0 md:w-max lg:border-l"
+            >
+              <button
+                type="button"
+                title="Start buying"
+                class="w-full py-3 px-6 text-center rounded-full transition sm:w-max"
+              >
+                <span class="block text-yellow-800 font-semibold text-sm">
+                  Order Online
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END NAV -->
+
+    <!-- START HEADER -->
+
+    <section>
+      <div class="bg-white py-10">
+        <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <h2 class="text-lg font-semibold text-indigo-600">Pricing</h2>
+            <p
+              class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+            >
+              Take control of your team.
+            </p>
+            <p class="mx-auto mt-5 max-w-xl text-xl text-gray-500">
+              Start building for free, then add a site plan to go live. Account
+              plans unlock additional features.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section>
+      <div class="mx-20">
+        <ul
+          role="list"
+          class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3"
+        >
+          <li
+            class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
+          >
+            <img src="/images/menu/dinner-menu.jpg" />
+          </li>
+          <li
+            class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
+          >
+            <img src="/images/menu/dinner-menu.jpg" />
+          </li>
+          <li
+            class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
+          >
+            <img src="/images/menu/dinner-menu.jpg" />
+          </li>
+
+          <!-- More people... -->
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
